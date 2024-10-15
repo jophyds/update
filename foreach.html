@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>for each method</h1>
+    <script>
+      // e1
+      //    const frurit=["apple","orange","bayana"]
+      //    console.log(frurit);
+      //    frurit.forEach(frurit=>console.log(frurit)
+      //    );
+
+      // e2
+
+      const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      // let total=4
+      // number.forEach(number=>{
+      //     total+=number;
+      // })
+      // console.log(total);
+
+      // const doublenumber=[]
+      // number.forEach(number => {
+      //     doublenumber.push(number*2)
+      // });
+      // console.log(doublenumber);
+
+      // let max=[0]
+      // number.forEach(number=>{
+      //     if(number>max){
+      //         max=number
+      //     }
+      // })
+      // console.log(max);
+
+      // let total=0
+      // number.forEach(number=>{
+      //     total+=number               /* avarage */
+      // })
+      // console.log(total/number.length);
+
+      const evennumber = [];
+
+      number.forEach((number) => {
+        if (number % 2 === 0) {
+          console.log(number);
+          evennumber.push(number);
+        }
+      });
+      console.log(evennumber);
+    </script>
+  </body>
+</html>
